@@ -1,0 +1,31 @@
+.searchBar {
+    border-radius: 5px;
+    padding: 0px 19px 0px 10px;
+    background-color: #FFFFFF;
+    height: inherit;
+    width: 100%;
+}
+/* @media screen and (max-width: 330px) {
+  .searchBar{
+    height: 30px;
+  }
+} */
+.searchBar input {
+  outline-style: none;
+  border-style: none;
+  background: transparent;
+  font-size: 14px;
+  font-weight: normal;
+  color: #000000;
+  flex-grow: 1;
+  min-width: 100px;
+}
+.searchBar input::placeholder{
+  color: var(--placeholder-text);
+  font-size: var(--fs-2Xsmall);
+}
+.searchBar img{
+  color: var(--primary);
+  padding-left: 15px;
+  border-left: 1px solid;
+}

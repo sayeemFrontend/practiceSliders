@@ -1,0 +1,136 @@
+:root{
+   --primary: #F65E08;
+  /* --primary-sm: #f5515f; */
+  --secondary:#2D2D2D;
+  --error:#F61608;
+  --success:#4D9B41;
+  --text-secondary:#1D2531;
+  --border-primary:#E4E4E5;
+  --placeholder-text: #999B9E;
+  --fs-XXlarge:2.50rem;
+  --fs-Xlarge:2rem;
+  --fs-large:1.75rem;
+  --fs-medium:1.50rem;
+  --fs-small:1.25rem;
+  --fs-Xsmall:1rem;
+  --fs-2Xsmall:.85rem;
+  --fw-2Xlarge:800;
+  --fw-Xlarge:700;
+  --fw-large:600;
+  --fw-medium:500;
+  --fw-small:400;
+  --fw-Xsmall:300;
+  --bg-primary:#FAFAFA;
+}
+
+body {
+  font-family:Uni Neue,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-primary);
+  overflow: auto;
+  margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6, p,ul {
+  margin:0;
+  padding:0;
+}
+
+li{
+  list-style: none;
+  cursor: pointer;  
+}
+
+/*  text declaration start */
+
+h1{
+  font-size: var(--fs-2Xlarge);
+  font-weight: var(--fw-2Xlarge);
+}
+
+h2{
+  font-size: var(--fs-Xlarge);
+  font-weight: var(--fw-Xlarge);
+}
+
+h3{
+  font-size: var(--fs-large);
+  font-weight: var(--fw-large);
+
+}
+
+h4{
+  font-size: var(--fs-medium);
+  font-weight: var(--fw-medium);
+
+}
+
+h5{
+  font-size: var(--fs-small);
+  font-weight: var(--fw-small);
+
+}
+h6{
+  font-size: var(--fs-Xsmall);
+  font-weight: var(--fw-Xsmall);
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.text-primary{
+  color: var(--primary);
+}
+.text-secondary{
+  color: var(--text-secondary);
+}
+.text-white{
+  color: #fff;
+}
+.text-black{
+  color: #000;
+}
+.text-gray{
+  color: var(--placeholder-text);
+}
+
+/* text declaration end */
+
+
+/*  background declaration start */
+.bgPrimary{
+  background-color: var(--primary);
+}
+.bgSecondary{
+  background-color: var(--secondary);
+}
+
+/* background declaration end */
+
+
+
+
+/*  border declaration start */
+
+.brPrimary{
+  border-width:1px;
+  border-style:solid;
+  border-color: var(--border-primary);
+}
+.brSecondary{
+  border-width:1px;
+  border-style:solid;
+  border-color:var(--secondary) ;
+}
+
+/* border declaration end  */
+
+.btnPrimary{
+
+}
+
+.btnSecondary{
+
+}

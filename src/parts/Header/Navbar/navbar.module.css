@@ -1,0 +1,47 @@
+.navbar{
+    background-color: var(--secondary);
+}
+.navbar .searchContainer{
+    width: 50%;
+    height: 34px;
+}
+.navbar .category{
+    background-color: var(--primary);
+    padding: 12px 0px;
+    width: 280px;
+}
+.navbar .category img{
+    width: 16px;
+}
+
+
+.navbar .dotIcon img{
+    width: 5px;
+    cursor: pointer;
+}
+.navbar .menuIcon img{
+    width: 35px;
+}
+
+.listContainer{
+    position: absolute;
+    width: 280px;
+    left: 0;
+    position: absolute;
+    top: 50px;
+}
+.menuContainer{
+    position: absolute;
+    width: 280px;
+    right: -12px;
+    top: 35px;
+}
+
+@media screen and (max-width:768px){
+.navbar .searchContainer {
+        width: 100%;
+    }
+    .listContainer{
+        left: -12px;
+    }
+}

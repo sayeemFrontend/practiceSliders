@@ -1,0 +1,18 @@
+.sliderContainer{
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+}
+
+.sliderInnerContainer{
+    display: flex;
+    transition: margin-left .3s linear;
+}
+
+.sliderItem{
+    height: 100%;
+}
+
+.sliderItem img{
+    width: 100%;
+}

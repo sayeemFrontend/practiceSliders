@@ -1,0 +1,34 @@
+.listView{
+    width: 100%;
+}
+.listView ul{
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #FFFFFF;
+    border-bottom:1px solid var(--border-primary) ;
+    cursor: pointer;
+}
+.listView ul:last-child{
+    border-bottom: 0;
+}
+.listView ul> li{
+    flex-grow: 1;
+}
+.listView ul >img{
+    width: 8px !important;
+}
+.listView ul:hover{
+    color: var(--primary);
+}
+.listView ul:hover > .arrow1{
+    display: none;
+}
+.listView .arrow2{
+    display: none;
+}
+.listView ul:hover .arrow2{
+    display: block;
+}
+
+/* .listView ul:hover + img[src]="" */
